@@ -1,3 +1,9 @@
 *eps-converted-to.pdf
 *~
+*.aux
+*.log
+*.pdf
+*.out
+*.backup
+*.synctex.gz
 
