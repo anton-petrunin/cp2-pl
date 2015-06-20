@@ -21,7 +21,7 @@
 \begin{document}
 
 
-\title{Ramification conjecture and Hrizebruch's question on line arrangements}
+\title{Ramification conjecture and Hirzebruch's property of line arrangements}
 \author{D. Panov and A. Petrunin}
 \date{}
 \maketitle
@@ -41,10 +41,10 @@ In the former case we conjecture that quotient spaces always have a $\CAT[0]$ ra
 
 The main objects of this article are Euclidean polyhedral spaces and their \emph {ramifications}. The ramification  of a polyhedral space is the metric completion of the universal cover of its regular locus. We are interested in the situation when the ramification is $\CAT[0]$. 
 
-We consider two main classes of polyhedral spaces, namely quotients of $\RR^n$ by discrete isometric actions, and polyhedral K\"ahler manifolds (i.e., polyhedral manifolds with a complex structure). 
+Two classes of polyhedral spaces that will play the most important role are quotients of $\RR^n$ by discrete isometric actions, and polyhedral K\"ahler manifolds (i.e., polyhedral manifolds with a complex structure). 
 
 \parbf{Quotients of $\RR^m$ and ramification conjecture.}
-We start with the case of $\RR^m$ quotients where the ramification space admits a alternative description in terms of arrangement of hyperplane of (real) codimension $2$ (we will call such planes \emph{hyperlines}).
+We start with the case of $\RR^m$ quotients where the ramification space admits an alternative description in terms of  arrangements of planes of (real) codimension $2$ (we will call such planes \emph{hyperlines}).
 
 Consider a discrete isometric and orientation-preserving action $\Gamma\acts\RR^m$.
 Denote by $\mathcal{L}_\Gamma$ the arrangement of all hyperlines which are fixed by at least one non-identical element in $\Gamma$. Define the ramification of $\Gamma\acts\RR^m$
@@ -82,7 +82,7 @@ In the following theorem we collect the partial cases of Ramification conjecture
 \begin{thm}{Theorem}\label{thm:main}
 The Ramification conjecture holds in the following cases:
 \begin{itemize}
-\item[$(\mathrm{R}^+)$] If the action $\Gamma\acts\RR^n$ is the orientation preserving subgroup of a reflection group.
+\item[$(\mathrm{R}^+)$] If the action $\Gamma\acts\RR^n$ is the orientation preserving index two subgroup of a reflection group.
 \item[$(\mathbb{Z}_2)$] If $\Gamma$ is isomorphic to $\ZZ_2^k$.
 \item[$(\RR^3)$]\label{3} If $m\le 3$.
 \item[$(\CC^2)$]\label{4}
@@ -122,19 +122,21 @@ The arrangement of complex hyperplanes%
  $\mathcal{L}_\Gamma$ in $\CC^m$ and its projectivization in $\CP^{m-1}$ are called {\it complex reflection arrangements}.
 
 \begin{thm}{Hirzebruch's question, \cite{Hirzebruch}} Let  $\mathcal{L}$ be a complex line arrangement in $\CP^2$ consisting of $3\cdot n$ lines such that each line of $\mathcal{L}$ intersect others at exactly $n+1$ points. 
-Is it true that $\mathcal{L}$ a complex reflection arrangement?
+Is it true that $\mathcal{L}$ is a complex reflection arrangement?
 \end{thm}
-Hirzebruch noticed that all complex reflection arrangements in $\CP^2$ satisfy the above property. These arrangements consist of two infinite series and five exceptional examples. 
+The above property will be called {\it Hirzebruch's property}.
+Hirzebruch noticed that all complex reflection line arrangements in $\CP^2$ satisfy this property. These line arrangements consist of two infinite series and five exceptional examples. 
 The infinite series are called $A_m^0$ ($m\ge 3$) and $A_m^3$ $(m\ge 2)$ and correspond to reflection groups $G(m,m,3)$ and $G(m,p,3)$ ($p<m$) from Shephard--Todd classification. 
 Five  exceptional examples correspond to reflection groups $G_{23}, G_{24}, G_{25}, G_{26}, G_{27}$. 
 
-The question of Hirzebruch is still open, but we are able to give here a non-trivial  topological constraint on arrangements satisfying Hirzebruch's property.
+Hirzebruch's question is still open, but we are able to prove the following.
 
 \begin{thm}{Theorem}\label{cor:3n}
-Assume $\mathcal{L}$ is a line arrangement in
-$\CP^2$ with $3\cdot n$ lines such that every line intersects others at exactly $n+1$ points and
-at most $2\cdot n-1$ lines pass through a single point.
-Then the  complement to $\mathcal{L}$ is aspherical.
+Line arrangements satisfying Hirzebruch's property have aspherical complements.
+%Assume $\mathcal{L}$ is a line arrangement in
+%$\CP^2$ with $3\cdot n$ lines, satisfying Hirzeburch's property and such that
+%no $2\cdot n$ lines in $\mathcal{L}$ pass through a single point.
+%Then the  complement to $\mathcal{L}$ is aspherical.
 \end{thm}
 
 Note that if the answer to Hirzebruch's question were positive, this theorem would follow from 
@@ -144,7 +146,7 @@ Namely he proved this statement for the cases of groups  $G_{24}$, $G_{27}$, $G_
 As an immediate corollary of our theorem we get a new geometric proof of Bessis's theorem for the cases of groups  $G_{24}$ and $G_{27}$.
 
 Theorem \ref{cor:3n} has a generalisation to a larger class of arrangements, described in Corollary \ref{generalarrangement}. 
-Note that on the one hand line arrangements with aspherical complements are very rear, on the other hand no idea exists at the present of how to classify them.  
+Note that on the one hand line arrangements with aspherical complements are quite rear, on the other hand no idea exists at the present of how to classify them.  
 
 
 \parbf{About the proof of Theorem \ref{cor:3n}.} 
