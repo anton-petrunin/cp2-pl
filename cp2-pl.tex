@@ -132,7 +132,7 @@ Five  exceptional examples correspond to reflection groups $G_{23}, G_{24}, G_{2
 Hirzebruch's question is still open, but we are able to prove the following.
 
 \begin{thm}{Theorem}\label{cor:3n}
-Line arrangements satisfying Hirzebruch's property have aspherical complements.
+All line arrangements satisfying Hirzebruch's property have aspherical complements.
 %Assume $\mathcal{L}$ is a line arrangement in
 %$\CP^2$ with $3\cdot n$ lines, satisfying Hirzeburch's property and such that
 %no $2\cdot n$ lines in $\mathcal{L}$ pass through a single point.
@@ -150,9 +150,8 @@ Note that on the one hand line arrangements with aspherical complements are quit
 
 
 \parbf{About the proof of Theorem \ref{cor:3n}.} 
-By \cite{panov},
-for any arrangement satisfying Hirzebruch's conditions, 
-there is a non-negatively curved polyhedral metric on $\CP^2$ with singularities at this arrangement. Hence to prove the theorem it is enough to show that the ramification of this polyhedral metric satisfies conditions a) and b) of Conjecture \ref{mainconjecture}.  Let us sketch how this is done.
+It follows from \cite[Corollary 7.8]{panov},
+that for any arrangement satisfying Hirzebruch's property except the union of three lines, there is a non-negatively curved polyhedral metric on $\CP^2$ with singularities at this arrangement. Hence to prove the theorem it is enough to show that the ramification of this polyhedral metric satisfies conditions a) and b) of Conjecture \ref{mainconjecture}.  Let us sketch how this is done.
 
 Consider a $3$-dimensional pseudomanifold $\Sigma$ with a piecewise spherical metric.
 Define the \emph{singular locus} $\Sigma^{{\star}}$ of $\Sigma$
@@ -1210,8 +1209,10 @@ the same way as at the end of the proof of Theorem  \ref{thm:main}; case $\CC^2$
 it suffices to know that there is a
 non-negatively curved polyhedral metric on $\CP^2$ with singularities
 at the line arrangement. 
-As is shown in \cite{panov} for Hirzebruch arrangements
-there is such a metric.
+It is shown in \cite{panov} that for any arrangement of $3n$ lines that satisfies Hirzebruch's property and such that no $2n$ lines of the arrangement pass through one point,
+such a metric exists. 
+
+We are left with the case when at least $2n$ lines of the arrangement pass through one point, say $p$. Take any other line that does not pass through $p$. This line has at least $2n$ distinct intersections with other lines of the arrangement. So $n+1\ge 2n$, and we conclude that the arrangement is composed of three generic lines, hence it complement is aspherical.
 \qeds
 
 \parbf{General line arrangements.}
