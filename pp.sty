@@ -137,3 +137,6 @@ urlcolor=black%,
 %ITEMIZE-first order sign
 \renewcommand{\labelitemi}{$\mathsurround=0pt \diamond$}
 \renewcommand{\labelitemii}{$\mathsurround=0pt \circ$}
+
+\newcommand{\nofootnote}[1]{%
+\begingroup\def\thefootnote{}\footnotetext{#1}\endgroup}
