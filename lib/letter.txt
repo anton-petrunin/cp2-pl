@@ -10,6 +10,6 @@ Q5: Charney, Ruth(1-OHS); Davis, Michael W.(1-OHS)
     J. Amer. Math. Soc. 8 (1995), no. 3, 597–627.
 Q6: Yes, please remove [Gro91]
 Q7: it seems to be an erratum on page 185 (1970) I am not sure how to do it correctly.
-Q8: it is book, viii+117 pp.
+Q8: it is a book, viii+117 pp.
 Q9:  We can not find more info.
 Q10: petrunin@math.psu.edu
