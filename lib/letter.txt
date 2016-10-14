@@ -1,0 +1,15 @@
+line 215: Why did you remove period?
+line 520: Please make a small skip after this line.
+
+Q1: Everything is right
+Q2: It should be 3.6(2)
+Q3: There is no update so far.
+Q4: these are not translated.
+Q5: Charney, Ruth(1-OHS); Davis, Michael W.(1-OHS) 
+    The K(π,1)-problem for hyperplane complements associated to infinite reflection groups. 
+    J. Amer. Math. Soc. 8 (1995), no. 3, 597–627.
+Q6: Yes, please remove [Gro91]
+Q7: it seems to be an erratum on page 185 (1970) I am not sure how to do it correctly.
+Q8: it is book, viii+117 pp.
+Q9:  We can not find more info.
+Q10: petrunin@math.psu.edu
